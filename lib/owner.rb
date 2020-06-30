@@ -15,6 +15,7 @@
 
 class Owner
 
+<<<<<<< HEAD
 attr_accessor :name
 @@all = []
 
@@ -29,6 +30,15 @@ end
 def self.all 
   @@all 
 end 
+=======
+@@all = []
+
+def initialize name 
+@name 
+@@all << self 
+end 
+
+>>>>>>> a799fc7a6dd70f29a877b18bd03482a8629c00d6
 
 
 end
